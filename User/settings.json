@@ -1,0 +1,11 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.draft-path": "/home/rdiscala/.vs-kubernetes/tools/draft/linux-amd64/draft",
+        "vs-kubernetes.helm-path": "/home/rdiscala/.vs-kubernetes/tools/helm/linux-amd64/helm"
+    },
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'Inconsolata-g for Powerline', 'monospace', monospace",
+    "terminal.integrated.fontFamily": "\"Inconsolata-g for Powerline\"",
+    "explorer.confirmDragAndDrop": false
+}
