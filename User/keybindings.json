@@ -1,0 +1,49 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.configureTaskRunner"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.previousEditorInGroup"
+    }
+]
